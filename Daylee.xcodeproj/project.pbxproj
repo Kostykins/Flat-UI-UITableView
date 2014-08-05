@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6051950186607CA0011698C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B605194F186607CA0011698C /* Foundation.framework */; };
+		B6051952186607CA0011698C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6051951186607CA0011698C /* CoreGraphics.framework */; };
+		B6051954186607CA0011698C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6051953186607CA0011698C /* UIKit.framework */; };
+		B605195A186607CA0011698C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6051958186607CA0011698C /* InfoPlist.strings */; };
+		B605195C186607CA0011698C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B605195B186607CA0011698C /* main.m */; };
+		B6051960186607CA0011698C /* DayleeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B605195F186607CA0011698C /* DayleeAppDelegate.m */; };
+		B6051962186607CA0011698C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6051961186607CA0011698C /* Images.xcassets */; };
+		B6051969186607CA0011698C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6051968186607CA0011698C /* XCTest.framework */; };
+		B605196A186607CA0011698C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B605194F186607CA0011698C /* Foundation.framework */; };
+		B605196B186607CA0011698C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6051953186607CA0011698C /* UIKit.framework */; };
+		B6051973186607CA0011698C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6051971186607CA0011698C /* InfoPlist.strings */; };
+		B6051975186607CA0011698C /* DayleeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6051974186607CA0011698C /* DayleeTests.m */; };
+		B605198018660BCF0011698C /* DayleeStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B605197F18660BCF0011698C /* DayleeStartViewController.m */; };
+		B605198118660BCF0011698C /* DayleeStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B605197F18660BCF0011698C /* DayleeStartViewController.m */; };
+		B605198318660C410011698C /* dayleeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B605198218660C410011698C /* dayleeIcon.png */; };
+		B605198418660C410011698C /* dayleeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B605198218660C410011698C /* dayleeIcon.png */; };
+		B605198618660E580011698C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B605198518660E580011698C /* Default-568h@2x.png */; };
+		B605198718660E580011698C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B605198518660E580011698C /* Default-568h@2x.png */; };
+		B605198918660E6C0011698C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B605198818660E6C0011698C /* Default@2x.png */; };
+		B605198A18660E6C0011698C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B605198818660E6C0011698C /* Default@2x.png */; };
+		B605198C1866101A0011698C /* iconforDaylee.png in Resources */ = {isa = PBXBuildFile; fileRef = B605198B1866101A0011698C /* iconforDaylee.png */; };
+		B605198D1866101A0011698C /* iconforDaylee.png in Resources */ = {isa = PBXBuildFile; fileRef = B605198B1866101A0011698C /* iconforDaylee.png */; };
+		B605198F1866162C0011698C /* dayleeIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = B605198E1866162C0011698C /* dayleeIcon2.png */; };
+		B60519901866162C0011698C /* dayleeIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = B605198E1866162C0011698C /* dayleeIcon2.png */; };
+		B60519921867A7D40011698C /* confirmButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B60519911867A7D40011698C /* confirmButton.png */; };
+		B60519941867AC9D0011698C /* problemButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B60519931867AC9D0011698C /* problemButton.png */; };
+		B64A814B186A083800EDD445 /* DayleeHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64A814A186A083800EDD445 /* DayleeHomeViewController.m */; };
+		B64A814E186A46A700EDD445 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64A814D186A46A700EDD445 /* HomeTableViewController.m */; };
+		B699B0CF186B60310011BB94 /* SchoolIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B699B0CE186B60310011BB94 /* SchoolIcon.png */; };
+		B699B0D2186BAB530011BB94 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B699B0D1186BAB530011BB94 /* HomeTableViewCell.m */; };
+		B699B0D4186CADEF0011BB94 /* workIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B699B0D3186CADEF0011BB94 /* workIcon.png */; };
+		B699B0D6186CB1B80011BB94 /* leisureIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B699B0D5186CB1B80011BB94 /* leisureIcon.png */; };
+		B699B0D8186CC0380011BB94 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B699B0D7186CC0380011BB94 /* QuartzCore.framework */; };
+		B699B0E2186CE7690011BB94 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B699B0E1186CE7690011BB94 /* FontAwesome.ttf */; };
+		B699B0E5186CE8490011BB94 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = B699B0E4186CE8490011BB94 /* NSString+FontAwesome.m */; };
+		B699B0E8186CE8650011BB94 /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = B699B0E7186CE8650011BB94 /* UIFont+FontAwesome.m */; };
+		B699B0EB186CE8780011BB94 /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B699B0EA186CE8780011BB94 /* FAImageView.m */; };
+		B699B0EE186F3CB20011BB94 /* SelectedHomeCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = B699B0ED186F3CB20011BB94 /* SelectedHomeCellView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B605196C186607CA0011698C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6051944186607CA0011698C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B605194B186607CA0011698C;
+			remoteInfo = Daylee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B605194C186607CA0011698C /* Daylee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daylee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B605194F186607CA0011698C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6051951186607CA0011698C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6051953186607CA0011698C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6051957186607CA0011698C /* Daylee-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Daylee-Info.plist"; sourceTree = "<group>"; };
+		B6051959186607CA0011698C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B605195B186607CA0011698C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B605195D186607CA0011698C /* Daylee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Daylee-Prefix.pch"; sourceTree = "<group>"; };
+		B605195E186607CA0011698C /* DayleeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DayleeAppDelegate.h; sourceTree = "<group>"; };
+		B605195F186607CA0011698C /* DayleeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayleeAppDelegate.m; sourceTree = "<group>"; };
+		B6051961186607CA0011698C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6051967186607CA0011698C /* DayleeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayleeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6051968186607CA0011698C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B6051970186607CA0011698C /* DayleeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DayleeTests-Info.plist"; sourceTree = "<group>"; };
+		B6051972186607CA0011698C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6051974186607CA0011698C /* DayleeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayleeTests.m; sourceTree = "<group>"; };
+		B605197E18660BCF0011698C /* DayleeStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayleeStartViewController.h; sourceTree = "<group>"; };
+		B605197F18660BCF0011698C /* DayleeStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayleeStartViewController.m; sourceTree = "<group>"; };
+		B605198218660C410011698C /* dayleeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dayleeIcon.png; sourceTree = "<group>"; };
+		B605198518660E580011698C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B605198818660E6C0011698C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B605198B1866101A0011698C /* iconforDaylee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconforDaylee.png; sourceTree = "<group>"; };
+		B605198E1866162C0011698C /* dayleeIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dayleeIcon2.png; sourceTree = "<group>"; };
+		B60519911867A7D40011698C /* confirmButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confirmButton.png; sourceTree = "<group>"; };
+		B60519931867AC9D0011698C /* problemButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = problemButton.png; sourceTree = "<group>"; };
+		B64A8149186A083800EDD445 /* DayleeHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayleeHomeViewController.h; sourceTree = "<group>"; };
+		B64A814A186A083800EDD445 /* DayleeHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayleeHomeViewController.m; sourceTree = "<group>"; };
+		B64A814C186A46A700EDD445 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		B64A814D186A46A700EDD445 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		B699B0CE186B60310011BB94 /* SchoolIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SchoolIcon.png; sourceTree = "<group>"; };
+		B699B0D0186BAB530011BB94 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		B699B0D1186BAB530011BB94 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		B699B0D3186CADEF0011BB94 /* workIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workIcon.png; sourceTree = "<group>"; };
+		B699B0D5186CB1B80011BB94 /* leisureIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leisureIcon.png; sourceTree = "<group>"; };
+		B699B0D7186CC0380011BB94 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B699B0E1186CE7690011BB94 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		B699B0E3186CE8490011BB94 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		B699B0E4186CE8490011BB94 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		B699B0E6186CE8650011BB94 /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
+		B699B0E7186CE8650011BB94 /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
+		B699B0E9186CE8780011BB94 /* FAImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAImageView.h; sourceTree = "<group>"; };
+		B699B0EA186CE8780011BB94 /* FAImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
+		B699B0EC186F3CB20011BB94 /* SelectedHomeCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedHomeCellView.h; sourceTree = "<group>"; };
+		B699B0ED186F3CB20011BB94 /* SelectedHomeCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedHomeCellView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6051949186607CA0011698C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B699B0D8186CC0380011BB94 /* QuartzCore.framework in Frameworks */,
+				B6051952186607CA0011698C /* CoreGraphics.framework in Frameworks */,
+				B6051954186607CA0011698C /* UIKit.framework in Frameworks */,
+				B6051950186607CA0011698C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6051964186607CA0011698C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6051969186607CA0011698C /* XCTest.framework in Frameworks */,
+				B605196B186607CA0011698C /* UIKit.framework in Frameworks */,
+				B605196A186607CA0011698C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6051943186607CA0011698C = {
+			isa = PBXGroup;
+			children = (
+				B6051955186607CA0011698C /* Daylee */,
+				B605196E186607CA0011698C /* DayleeTests */,
+				B605194E186607CA0011698C /* Frameworks */,
+				B605194D186607CA0011698C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B605194D186607CA0011698C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B605194C186607CA0011698C /* Daylee.app */,
+				B6051967186607CA0011698C /* DayleeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B605194E186607CA0011698C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B699B0D7186CC0380011BB94 /* QuartzCore.framework */,
+				B605194F186607CA0011698C /* Foundation.framework */,
+				B6051951186607CA0011698C /* CoreGraphics.framework */,
+				B6051953186607CA0011698C /* UIKit.framework */,
+				B6051968186607CA0011698C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6051955186607CA0011698C /* Daylee */ = {
+			isa = PBXGroup;
+			children = (
+				B605195E186607CA0011698C /* DayleeAppDelegate.h */,
+				B605195F186607CA0011698C /* DayleeAppDelegate.m */,
+				B605197E18660BCF0011698C /* DayleeStartViewController.h */,
+				B605197F18660BCF0011698C /* DayleeStartViewController.m */,
+				B64A8149186A083800EDD445 /* DayleeHomeViewController.h */,
+				B64A814A186A083800EDD445 /* DayleeHomeViewController.m */,
+				B64A814C186A46A700EDD445 /* HomeTableViewController.h */,
+				B64A814D186A46A700EDD445 /* HomeTableViewController.m */,
+				B699B0D0186BAB530011BB94 /* HomeTableViewCell.h */,
+				B699B0D1186BAB530011BB94 /* HomeTableViewCell.m */,
+				B699B0EC186F3CB20011BB94 /* SelectedHomeCellView.h */,
+				B699B0ED186F3CB20011BB94 /* SelectedHomeCellView.m */,
+				B699B0E9186CE8780011BB94 /* FAImageView.h */,
+				B699B0EA186CE8780011BB94 /* FAImageView.m */,
+				B699B0E3186CE8490011BB94 /* NSString+FontAwesome.h */,
+				B699B0E4186CE8490011BB94 /* NSString+FontAwesome.m */,
+				B699B0E6186CE8650011BB94 /* UIFont+FontAwesome.h */,
+				B699B0E7186CE8650011BB94 /* UIFont+FontAwesome.m */,
+				B6051961186607CA0011698C /* Images.xcassets */,
+				B6051956186607CA0011698C /* Supporting Files */,
+			);
+			path = Daylee;
+			sourceTree = "<group>";
+		};
+		B6051956186607CA0011698C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B699B0E1186CE7690011BB94 /* FontAwesome.ttf */,
+				B6051957186607CA0011698C /* Daylee-Info.plist */,
+				B6051958186607CA0011698C /* InfoPlist.strings */,
+				B60519911867A7D40011698C /* confirmButton.png */,
+				B605198218660C410011698C /* dayleeIcon.png */,
+				B605198E1866162C0011698C /* dayleeIcon2.png */,
+				B605198818660E6C0011698C /* Default@2x.png */,
+				B605198518660E580011698C /* Default-568h@2x.png */,
+				B605198B1866101A0011698C /* iconforDaylee.png */,
+				B699B0D5186CB1B80011BB94 /* leisureIcon.png */,
+				B60519931867AC9D0011698C /* problemButton.png */,
+				B699B0CE186B60310011BB94 /* SchoolIcon.png */,
+				B699B0D3186CADEF0011BB94 /* workIcon.png */,
+				B605195B186607CA0011698C /* main.m */,
+				B605195D186607CA0011698C /* Daylee-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B605196E186607CA0011698C /* DayleeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6051974186607CA0011698C /* DayleeTests.m */,
+				B605196F186607CA0011698C /* Supporting Files */,
+			);
+			path = DayleeTests;
+			sourceTree = "<group>";
+		};
+		B605196F186607CA0011698C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6051970186607CA0011698C /* DayleeTests-Info.plist */,
+				B6051971186607CA0011698C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B605194B186607CA0011698C /* Daylee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6051978186607CA0011698C /* Build configuration list for PBXNativeTarget "Daylee" */;
+			buildPhases = (
+				B6051948186607CA0011698C /* Sources */,
+				B6051949186607CA0011698C /* Frameworks */,
+				B605194A186607CA0011698C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Daylee;
+			productName = Daylee;
+			productReference = B605194C186607CA0011698C /* Daylee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6051966186607CA0011698C /* DayleeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B605197B186607CA0011698C /* Build configuration list for PBXNativeTarget "DayleeTests" */;
+			buildPhases = (
+				B6051963186607CA0011698C /* Sources */,
+				B6051964186607CA0011698C /* Frameworks */,
+				B6051965186607CA0011698C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B605196D186607CA0011698C /* PBXTargetDependency */,
+			);
+			name = DayleeTests;
+			productName = DayleeTests;
+			productReference = B6051967186607CA0011698C /* DayleeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6051944186607CA0011698C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Daylee;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Matt Kostelecky";
+				TargetAttributes = {
+					B605194B186607CA0011698C = {
+						DevelopmentTeam = PMXBKCG5X5;
+					};
+					B6051966186607CA0011698C = {
+						TestTargetID = B605194B186607CA0011698C;
+					};
+				};
+			};
+			buildConfigurationList = B6051947186607CA0011698C /* Build configuration list for PBXProject "Daylee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6051943186607CA0011698C;
+			productRefGroup = B605194D186607CA0011698C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B605194B186607CA0011698C /* Daylee */,
+				B6051966186607CA0011698C /* DayleeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B605194A186607CA0011698C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B699B0D6186CB1B80011BB94 /* leisureIcon.png in Resources */,
+				B699B0E2186CE7690011BB94 /* FontAwesome.ttf in Resources */,
+				B605195A186607CA0011698C /* InfoPlist.strings in Resources */,
+				B605198618660E580011698C /* Default-568h@2x.png in Resources */,
+				B699B0CF186B60310011BB94 /* SchoolIcon.png in Resources */,
+				B605198F1866162C0011698C /* dayleeIcon2.png in Resources */,
+				B60519941867AC9D0011698C /* problemButton.png in Resources */,
+				B605198C1866101A0011698C /* iconforDaylee.png in Resources */,
+				B699B0D4186CADEF0011BB94 /* workIcon.png in Resources */,
+				B605198918660E6C0011698C /* Default@2x.png in Resources */,
+				B605198318660C410011698C /* dayleeIcon.png in Resources */,
+				B60519921867A7D40011698C /* confirmButton.png in Resources */,
+				B6051962186607CA0011698C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6051965186607CA0011698C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B605198A18660E6C0011698C /* Default@2x.png in Resources */,
+				B605198418660C410011698C /* dayleeIcon.png in Resources */,
+				B6051973186607CA0011698C /* InfoPlist.strings in Resources */,
+				B60519901866162C0011698C /* dayleeIcon2.png in Resources */,
+				B605198D1866101A0011698C /* iconforDaylee.png in Resources */,
+				B605198718660E580011698C /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6051948186607CA0011698C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B699B0EB186CE8780011BB94 /* FAImageView.m in Sources */,
+				B699B0E5186CE8490011BB94 /* NSString+FontAwesome.m in Sources */,
+				B699B0EE186F3CB20011BB94 /* SelectedHomeCellView.m in Sources */,
+				B605198018660BCF0011698C /* DayleeStartViewController.m in Sources */,
+				B64A814E186A46A700EDD445 /* HomeTableViewController.m in Sources */,
+				B699B0D2186BAB530011BB94 /* HomeTableViewCell.m in Sources */,
+				B64A814B186A083800EDD445 /* DayleeHomeViewController.m in Sources */,
+				B6051960186607CA0011698C /* DayleeAppDelegate.m in Sources */,
+				B605195C186607CA0011698C /* main.m in Sources */,
+				B699B0E8186CE8650011BB94 /* UIFont+FontAwesome.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6051963186607CA0011698C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6051975186607CA0011698C /* DayleeTests.m in Sources */,
+				B605198118660BCF0011698C /* DayleeStartViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B605196D186607CA0011698C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B605194B186607CA0011698C /* Daylee */;
+			targetProxy = B605196C186607CA0011698C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6051958186607CA0011698C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6051959186607CA0011698C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6051971186607CA0011698C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6051972186607CA0011698C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6051976186607CA0011698C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6051977186607CA0011698C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6051979186607CA0011698C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Daylee/Daylee-Prefix.pch";
+				INFOPLIST_FILE = "Daylee/Daylee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B605197A186607CA0011698C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Daylee/Daylee-Prefix.pch";
+				INFOPLIST_FILE = "Daylee/Daylee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B605197C186607CA0011698C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Daylee.app/Daylee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Daylee/Daylee-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DayleeTests/DayleeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B605197D186607CA0011698C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Daylee.app/Daylee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Daylee/Daylee-Prefix.pch";
+				INFOPLIST_FILE = "DayleeTests/DayleeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6051947186607CA0011698C /* Build configuration list for PBXProject "Daylee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6051976186607CA0011698C /* Debug */,
+				B6051977186607CA0011698C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6051978186607CA0011698C /* Build configuration list for PBXNativeTarget "Daylee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6051979186607CA0011698C /* Debug */,
+				B605197A186607CA0011698C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B605197B186607CA0011698C /* Build configuration list for PBXNativeTarget "DayleeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B605197C186607CA0011698C /* Debug */,
+				B605197D186607CA0011698C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6051944186607CA0011698C /* Project object */;
+}
